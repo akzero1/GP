@@ -193,11 +193,12 @@ body::after{
 .toast{
   position:fixed;top:20px;left:50%;transform:translateX(-50%) scale(0);
   background:linear-gradient(135deg,#e11d48,#be123c);color:#fff;
-  font-family:'Lilita One',cursive;font-size:clamp(20px,5vw,32px);
+  font-family:'Nunito','Segoe UI',system-ui,sans-serif;font-weight:900;
+  font-size:clamp(18px,5vw,26px);
   padding:12px 32px;border-radius:16px;z-index:9999;
-  box-shadow:0 8px 32px rgba(225,29,72,.6);letter-spacing:2px;
+  box-shadow:0 8px 32px rgba(225,29,72,.6);letter-spacing:1px;
   transition:transform .3s cubic-bezier(.34,1.56,.64,1);
-  pointer-events:none;
+  pointer-events:none;white-space:nowrap;
 }
 .toast.show{transform:translateX(-50%) scale(1);}
 
@@ -227,7 +228,7 @@ body::after{
 <!-- COVER -->
 <div class="cover">
   <div class="cover-glow1"></div><div class="cover-glow2"></div>
-  <div class="cover-badge">⚖️ Цивилистический капустник</div>
+  <div class="cover-badge">⚖️ Семинар по гражданскому праву</div>
   <h1>Право в <span>Бою!</span></h1>
   <h2>Способы защиты гражданских прав: теория vs реальность</h2>
   <div class="cover-icon">⚖️</div>
